@@ -28,8 +28,8 @@
     <!-- Google Font -->
     <style></style>
   </head>
-  <body class="max-w-[1140px] m-auto py-5">
-    <header>
+  <body class="py-5">
+    <header class="max-w-[1140px] m-auto">
       <!--======================= Header Part Start =======================-->
       <div
         class="flex items-center justify-between interFont px-[10px] lg:px-0">
@@ -79,7 +79,7 @@
     </header>
     <main>
       <!--======================= Our Plant Part Start =======================-->
-      <section>
+      <section class="max-w-[1140px] m-auto">
         <div
           class="content m-auto max-w-[850px] md:pt-10 mt-15 md:mt-30 text-center px-[10px] lg:px-0">
           <h2 class="text-[2rem] md:text-[3rem] font-bold notoFont">
@@ -193,7 +193,7 @@
       </section>
       <!--======================= Our Plant Part end =======================-->
       <!--======================= flower_Lover Part Start =======================-->
-      <section>
+      <section class="max-w-[1140px] m-auto">
         <div
           class="flex flex-col md:flex-row md:gap-10 justify-between mt-15 md:mt-30 px-[10px] lg:px-0">
           <div class="relative">
@@ -235,7 +235,7 @@
       </section>
       <!--======================= flower_Lover Part End =======================-->
       <!--======================= Latest  Deals Part Start =======================-->
-      <section>
+      <section class="max-w-[1140px] m-auto">
         <div
           class="content m-auto max-w-[850px] md:pt-10 mt-15 md:mt-30 text-center px-[10px] lg:px-0">
           <h2 class="text-[2rem] md:text-[3rem] font-bold notoFont">
@@ -248,15 +248,18 @@
           </p>
         </div>
         <!--========================== grid Part Start ==========================-->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-[10px] lg:px-0 mt-10 md:mt-[120px]">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-[10px] lg:px-0 mt-10 md:mt-[120px]">
           <div
             class="relative text-white z-10 bg-[url(./images/deal-bloom.png)] bg-no-repeat bg-center bg-cover row-span-10 rounded-[20px]">
             <div class="absolute bg-black/40 inset-0 z-20 rounded-[20px]"></div>
-           <div class="relative z-30 py-12 md:p-12 text-center">
-              <h3 class="notoFont text-[1.25rem] font-bold  ">
+            <div class="relative z-30 py-12 md:p-12 text-center">
+              <h3 class="notoFont text-[1.25rem] font-bold">
                 60% Off | Bloom Plant
               </h3>
-              <button class="underline pt-[20px]"><a href="#">Shop Now</a></button>
+              <button class="underline pt-[20px]">
+                <a href="#">Shop Now</a>
+              </button>
             </div>
           </div>
 
@@ -264,28 +267,94 @@
             class="relative text-white bg-[url(./images/deal-zabo.png)] bg-no-repeat bg-center bg-cover min-h-[50px] lg:col-span-2 row-span-10 lg:row-span-20 rounded-[20px]">
             <div class="absolute bg-black/40 inset-0 z-20 rounded-[20px]"></div>
             <div class="relative z-30 py-12 md:p-12 text-center">
-              <h3 class="notoFont text-[1.25rem] md:text-[2rem] lg:text-[2.5rem] font-bold  ">
+              <h3
+                class="notoFont text-[1.25rem] md:text-[2rem] lg:text-[2.5rem] font-bold">
                 25% Off | Zabo Plant
               </h3>
-              <button class="underline pt-[20px]  md:text-[1.75rem]"><a href="#">Shop Now</a></button>
+              <button class="underline pt-[20px] md:text-[1.75rem]">
+                <a href="#">Shop Now</a>
+              </button>
             </div>
           </div>
 
-            <div
+          <div
             class="relative text-white z-10 bg-[url(./images/deal-ana.png)] bg-no-repeat bg-center bg-cover row-span-10 rounded-[20px]">
             <div class="absolute bg-black/40 inset-0 z-20 rounded-[20px]"></div>
-           <div class="relative z-30 p-12 text-center">
-              <h3 class="notoFont text-[1.25rem] font-bold  ">
-                30% Off | Ana  Plant
+            <div class="relative z-30 p-12 text-center">
+              <h3 class="notoFont text-[1.25rem] font-bold">
+                30% Off | Ana Plant
               </h3>
-              <button class="underline pt-[20px]"><a href="#">Shop Now</a></button>
+              <button class="underline pt-[20px]">
+                <a href="#">Shop Now</a>
+              </button>
             </div>
           </div>
         </div>
         <!--========================== grid Part Start ==========================-->
       </section>
       <!--======================= Latest  Deals Part End =======================-->
+      <!--======================= Join  Part Start =======================-->
+      <section class="py-20">
+        <div
+          class="bg-[url(./images/news-letter-bg.png)] bg-no-repeat bg-cover px-[10px] lg:px-0">
+          <div class="text-center py-50">
+            <h1
+              class="text-[1.5rem] md:text-[3rem] notoFont font-bold text-white">
+              Join the colorful Bunch
+            </h1>
+            <div class="max-w-[700px] flex m-auto mt-4">
+              <input
+                class="bg-white w-[100%] py-1 md:py-3 px-5"
+                type="email"
+                placeholder="Write Email..." />
+              <button
+                type="submit"
+                class="bg-[#E95A08] border-spacing-0 py-3 px-5 text-white">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--======================= Join  Part End =======================-->
     </main>
-    <footer></footer>
+    <footer>
+      <section class=" bg-slate-100 border-t-2 border-gray-300 py-10">
+        <div
+          class="max-w-[1140px] m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  px-[20px] lg:px-0">
+          <div class="">
+              <img src="images/logo.png" alt="">
+              <p class="interFont text-[#8987A1] pt-2">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+          </div>
+
+          <div class="lg:m-auto">
+             <ul class="nterFont text-[#8987A1] flex flex-col gap-y-6">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>FAQ</li>
+                <li>Contact Us</li>
+             </ul>
+          </div>
+
+          <div class="lg;m-auto pt-6">
+             <ul class="nterFont text-[#8987A1] flex flex-col gap-y-6">
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Help Center</li>
+             </ul>
+          </div>
+           
+          <div class="flex gap-5 mt-5 lg:-mt-40 items-center">
+            <img src="./images/icon-linkedin.png" alt="" >
+            <img src="./images/icon-twitter.png" alt="">
+            <img src="./images/icon-facebook.png" alt="" >
+            <img src="./images/icon-youtube.png" alt="" >
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
